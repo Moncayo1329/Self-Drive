@@ -5,10 +5,14 @@ class Car {
       this.width = width;
       this.height = height;
 
-      this.control=new Controls();
-
+  this.control=new Controls();
     }
-  
+
+
+
+
+
+    
     draw(ctx) {
       ctx.fillRect(this.x, this.y, this.width, this.height);
     }

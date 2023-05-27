@@ -7,6 +7,19 @@ const ctx = canvas.getContext("2d");
 
 
 
+    
+
+
+
+function animate() {
+  car.update();
+  car.draw();
+  requestAnimationFrame(animate);
+}
+
+animate()
+
+
 
 
 
